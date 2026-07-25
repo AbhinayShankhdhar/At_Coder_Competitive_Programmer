@@ -5,9 +5,9 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "node src/server.js",
+    "start": "node server.js", 
     "dev": "nodemon --exec node src/server.js",
-    "init:db": "python3 scripts/init_db.py",
+    "init:db": "python3 init_db.py",
     "init:db:local": "python3 scripts/init_db.py --mode local"
   },
   "engines": {

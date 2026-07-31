@@ -131,7 +131,7 @@ const NavigationBar = () => {
 
         {/* GitHub Logo Link */}
         <a
-          href="https://github.com/vlalit834/atcoder_ai_tagged_problem"
+          href="https://github.com/AbhinayShankhdhar/At_Coder_Competitive_Programmer"
           target="_blank"
           rel="noopener noreferrer"
           aria-label="View source on GitHub"

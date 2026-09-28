@@ -1,4 +1,11 @@
-# AtCoder Competitive Programmer — Backend API
+# AtCoder AI Tagged Problems
+
+**Live demo:** https://at-coder-competitive-programmer-xtg.vercel.app
+
+Browse and filter AtCoder problems by AI-generated topic tags, and track your solved problems by AtCoder username.
+React + TypeScript frontend (Vercel) with a Node.js/Express + SQLite backend (Render).
+
+## Backend API
 
 A Node.js/Express backend that serves AtCoder competitive programming data (problems, contests, and tags) through a REST API, backed by a local SQLite database.
 

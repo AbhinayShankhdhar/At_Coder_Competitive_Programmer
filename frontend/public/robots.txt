@@ -4,4 +4,4 @@ Allow: /
 # Block API proxy paths (no SEO value, save crawl budget)
 Disallow: /api/
 
-Sitemap: https://atcoder-ai-tagged-problem.vercel.app/sitemap.xml
+Sitemap: https://at-coder-competitive-programmer-xtg.vercel.app/sitemap.xml

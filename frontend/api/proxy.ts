@@ -1,6 +1,9 @@
 export const config = { runtime: "edge" };
 
-const BACKEND = "https://atcoder-tagged-backend.onrender.com";
+// Set BACKEND_URL in Vercel project settings to your Render URL (no trailing slash).
+const BACKEND = (
+  process.env.BACKEND_URL || "https://atcoder-tagged-backend.onrender.com"
+).replace(/\/+$/, "");
 
 type Rule = { match: RegExp; sMaxAge: number; swr: number };
 

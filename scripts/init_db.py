@@ -14,6 +14,9 @@ args = parser.parse_args()
 
 if args.mode == "production":
     CSV_PATH = DATA_DIR / "atcoder_tags.csv"
+    if not CSV_PATH.exists():
+        print(f"[init_db] {CSV_PATH.name} not found, falling back to sample.csv")
+        CSV_PATH = DATA_DIR / "sample.csv"
 else:
     CSV_PATH = DATA_DIR / "sample.csv"
 
